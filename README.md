@@ -34,7 +34,9 @@ This project focuses on clean architecture, reusable components, and real-world 
 
 src/
 ├── components/ # Reusable UI components
+
 ├── pages/ # Application pages
+
 ├── context/ # Global state management
 ├── utils/ # Helper & utility functions
 ├── config/ # App configurations
