@@ -1,0 +1,69 @@
+/* clear*/
+.bg-clear{
+    background: linear-gradient(to bottom,#ffdd57,#f8b400);
+    animation: sunGlow 6s infinite alternate;
+}
+@keyframes sunGlow{
+    0%{filter: brightness(100%);}
+    100%{filter: brightness(115%);}
+}
+
+/*clouds*/
+.bg-cloudy{
+    background: #8da0b3;
+    overflow: hidden;
+}
+.bg-cloudy::before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: url('.clouds.png');
+    opacity: 0.6;
+    animation: cloudMove 40s linear infinite;
+}
+@keyframes cloudMove{
+    from{transform: translateX(-20%);}
+    to{transform: translateX(20%);}
+}
+
+/*rain*/
+.bg-rain{
+    background: #4b5563;
+    animation: rainDim 3s infinite alternate;
+}
+@keyframes rainDim{
+    0%{filter: brightness(90%);}
+    100%{filter: brightness(75%);}
+}
+.bg-rain::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/rain-overlay.png');
+    opacity: 0.3;
+    animation: rainFall 1s linear infinite;
+}
+@keyframes rainFall{
+    from{background-position: 0 0;}
+    to{background-position: 0 100%;}
+}
+
+/*snow*/
+.bg-snow{
+    background: #dbeafe;
+}
+.bg-snow::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/snowflakes.png');
+    opacity: 0.7;
+    animation: snowFall 8s linear infinite;
+}
+@keyframes snowFall{
+    from{background-position: 0 -200px;}
+    to{background-position: 0 200px;}
+}
