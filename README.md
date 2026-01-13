@@ -50,7 +50,7 @@ src/
 
 ## Clone the repository:
 ```bash
-git clone https://github.com/your-username/react-interactive-dashboard.git
+git clone https://github.com/Dhanabasappa/react-interactive-dashboard.git
 
 ## Install dependencies:
 npm install
