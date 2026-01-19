@@ -21,7 +21,6 @@ This project focuses on clean architecture, reusable components, and real-world 
 ## 🛠 Tech Stack
 
 - React
-- Vite
 - JavaScript (ES6+)
 - Context API
 - Tailwind CSS
@@ -33,10 +32,15 @@ This project focuses on clean architecture, reusable components, and real-world 
 ## 📂 Project Structure
 
 src/
+
 ├── components/ # Reusable UI components
+
 ├── pages/ # Application pages
+
 ├── context/ # Global state management
+
 ├── utils/ # Helper & utility functions
+
 ├── config/ # App configurations
 
 ---
@@ -45,7 +49,7 @@ src/
 
 ## Clone the repository:
 ```bash
-git clone https://github.com/your-username/react-interactive-dashboard.git
+git clone https://github.com/Dhanabasappa/react-interactive-dashboard.git
 
 ## Install dependencies:
 npm install
@@ -57,7 +61,7 @@ npm run dev
 Create a .env file using the .env.example template.
 
 📸 Screenshots
-![Dashboard Page](screenshots/dashboard.png) and (creenshots/fileupload)
+![Dashboard Page](screenshots/dashboard.png) and (screenshots/fileupload)
 
 ### Weather Page
 ![Weather Page](screenshots/weather.png)
@@ -66,10 +70,10 @@ Create a .env file using the .env.example template.
 ![Crypto Page](screenshots/crypto.png)
 
 ###notifications page
-![Notifications Page](screenshots/notifications)
+![Notifications Page](screenshots/notifications.png)
 
 ###profile page
-![Profile Page](screenshots/profile)
+![Profile Page](screenshots/profile.png)
 
 ###settings
-![Settings Page](screenshots/settings)
+![Settings Page](screenshots/settings.png)
